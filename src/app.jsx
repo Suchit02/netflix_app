@@ -12,7 +12,7 @@ function App (){
             Title="The Last Kingdom: Seven Kings Must Die"
             Viwe="35.5M Hours View" 
             link="https://www.netflix.com/in/title/81460361"
-            SubTitle="Film (English)"
+            SubTitle="Film (Hindi)"
             />
             <Netflix imgsrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XYlKoM300UiFzDhJ5wjeyQ4wnmznp1w99w"
             Title="Hunger"
