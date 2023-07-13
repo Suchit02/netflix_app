@@ -5,6 +5,14 @@
 body{
      background-color: rgb(26, 26, 29);
 }
+.heading{
+          background-color: rgb(225, 73, 73);
+          color: rgb(67, 63, 63);
+          text-align: center;
+          height: 4rem;
+          margin-top: 0 auto;
+          padding-top: 0.5em ;
+}
 .main
 {
      width: 90%;
