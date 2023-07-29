@@ -11,23 +11,11 @@ function App (){
         <div className="heading">
         <h1> List Of Top Netflix Shows in 2020</h1> </div>
         <div className="main">
-            <Netflix imgsrc={Sdata[0].imgsrc}
-            Title={Sdata[0].Title}
-            Viwe={Sdata[0].Viwe}
-            link={Sdata[0].link}
-            SubTitle={Sdata[0].SubTitle}
-            />
-           <Netflix imgsrc={Sdata[1].imgsrc}
-            Title={Sdata[1].Title}
-            Viwe={Sdata[1].Viwe}
-            link={Sdata[1].link}
-            SubTitle={Sdata[1].SubTitle}
-            />
-           <Netflix imgsrc={Sdata[2].imgsrc}
-            Title={Sdata[2].Title}
-            Viwe={Sdata[2].Viwe}
-            link={Sdata[2].link}
-            SubTitle={Sdata[2].SubTitle}
+            <Netflix imgsrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClMlCwqtTsDHme1QuTD9lFiE_fanAp8fQkQ"
+            Title="The Last Kingdom: Seven Kings Must Die"
+            Viwe="35.5M Hours View" 
+            link="https://www.netflix.com/in/title/81460361"
+            SubTitle="Film (English)"
             />
 
 <Netflix imgsrc={Sdata[3].imgsrc}
