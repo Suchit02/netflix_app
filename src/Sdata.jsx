@@ -1,31 +1,36 @@
+import myImage from '../src/img/asset 15.jpeg'; // Replace with your image file and path
+import myImage2 from '../src/img/002.jpeg';
+import myImage3 from '../src/img/003.jpeg';
+import myImage4 from '../src/img/004.jpeg';
+
 const Sdata = [
     {
-        imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClMlCwqtTsDHme1QuTD9lFiE_fanAp8fQkQ",
-        Title:"The Last Kingdom: Seven Kings Must Die",
+        imgsrc:myImage,
+        Title:"The Last Kingdom",
         Viwe:"35.5M Hours View" ,
         link:"https://www.netflix.com/in/title/81460361",
         SubTitle:"Film (English)"
     },
     {
-        imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XYlKoM300UiFzDhJ5wjeyQ4wnmznp1w99w",
+        imgsrc:myImage2,
         Title:"Hunger",
         Viwe:"43.58M Hours View" ,
         link:"https://www.netflix.com/in/title/81517155",
         SubTitle:"Film (Non-English)"
     },
     {
-        imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOy7E9g6LXV0wCQw34747qv2LwY5aVSAVylw",
-        Title:"The Night Agent",
+        imgsrc:myImage3,
+        Title:"Barbarians",
         Viwe:"90.04M Hours View" ,
-        link:"https://www.netflix.com/in/title/81450827",
+        link:"https://www.netflix.com/in/title/81024039",
         SubTitle:"TV (English)"
     },
     {
-        imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYbNDp6CjaC4c_qRK-z6xXPzfdjhEWsphSg",
-            Title:"Money Heist",
+        imgsrc:myImage4,
+            Title:"Vikings: Valhalla",
             Viwe:"105.82M Hours View" ,
-            link:"https://www.netflix.com/in/title/80192098",
-            SubTitle:"Web Serise (English)",
+            link:"https://www.netflix.com/in/title/81149450",
+            SubTitle:"Drama (English)",
     }
 ]
 export default Sdata

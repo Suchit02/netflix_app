@@ -6,12 +6,15 @@ body{
      background-color: rgb(26, 26, 29);
 }
 .heading{
-          background-color: rgb(225, 73, 73);
-          color: rgb(67, 63, 63);
+          background-color: rgb(193, 0, 0);
+          color: rgb(233, 211, 211);
           text-align: center;
-          height: 4rem;
-          margin-top: 0 auto;
+          width:100%;
+          height: 5rem;
           padding-top: 0.5em ;
+          border-radius: 10px;
+       
+        
 }
 .main
 {
@@ -21,18 +24,25 @@ body{
      flex-wrap: wrap;
      flex-direction: row;
      margin: 3em auto;
+    
 }
 .Card-one{
      width: 50%;
-     margin: 3em;   
-      
+     margin: 3em;  
+    
 }
+
 .Img-card{
      width: 560px;
      height: 260px;
      object-fit: cover;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;  
 
 }
+.Img-card:hover {
+     transform: scale(1.1);}
 .sub-title
 {
      color: rgb(217, 10, 10);
@@ -48,7 +58,7 @@ body{
  .viwe{
     color: rgb(127, 126, 126);
     font-size: 16px;
-    margin-top: -15px;
+    margin-top: 15px;
     
 }
 .btn{

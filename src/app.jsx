@@ -8,7 +8,8 @@ import Sdata from './Sdata';
 function App (){
      return (
         <>
-        <h1 className="heading"> List Of Top Netflix Shows in 2020</h1>
+        <div className="heading">
+        <h1> List Of Top Netflix Shows in 2020</h1> </div>
         <div className="main">
             <Netflix imgsrc={Sdata[0].imgsrc}
             Title={Sdata[0].Title}
